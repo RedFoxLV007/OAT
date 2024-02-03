@@ -236,3 +236,6 @@ def test_invalid_apikey(get_url):
 # # send requests
 # response = requests.get(url)
 # print(response, response.status_code, response.json()['Response'])
+print()
+
+#повторить
