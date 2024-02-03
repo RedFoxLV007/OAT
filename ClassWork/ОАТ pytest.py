@@ -41,7 +41,7 @@ import requests
 # print(type(response.status_code), response.status_code)
 
 # def test_status_code_200():
-#     response = requests.request(url="https://calcus.ru/kalkulyator-ipoteki", method='GET')
+#
 #     result = response.status_code
 #     assert  200 <= result < 400
 
