@@ -38,7 +38,7 @@
 # ----------------------------------------------------------------------------# ------------------------ test-case valid params -----------------------#
 import requests
 import pytest
-#def test_search_valid_movie():
+def test_search_valid_movie():
     # base_url
     base_url = "https://www.omdbapi.com/"
 
