@@ -63,3 +63,5 @@ def test_add_item_to_cart(driver, input_value, expected):
     current_date = datetime.datetime.now().strftime("%Y.%m.%d_%H.%M.%S")
     name_screenshot = 'screenshots/full_page_screenshot' + current_date + '.png'
     driver.save_screenshot(name_screenshot)
+
+
