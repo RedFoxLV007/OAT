@@ -1,5 +1,9 @@
 # config.py - содержит все необходимые настройки для тестирования
+
+
 from selenium import webdriver
+
+
 
 
 driver = webdriver.Chrome()
