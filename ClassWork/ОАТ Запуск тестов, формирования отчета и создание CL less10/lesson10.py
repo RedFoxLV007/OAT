@@ -1,3 +1,4 @@
+# работа через консоль CD
 import requests
 import pytest
 #
