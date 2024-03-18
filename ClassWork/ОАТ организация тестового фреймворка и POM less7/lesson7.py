@@ -78,7 +78,7 @@ def test_division_by_zero():
 
 @pytest.mark.parametrize("input_value, expected", [('math', True), ('fadsDsad', "No results found.")])
 def test_case_search(driver, input_value, expected):
-    class_locator = 'list-recent-events.menu'
+    class_locator = 'list-r ecent-events.menu'
     search = driver.find_element(By.XPATH, '//*[@id="content"]/div/section/form/p/input[1]')
     search.click()
     search.send_keys(input_value)
