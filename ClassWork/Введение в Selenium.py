@@ -1,3 +1,4 @@
+
 # pip install selenium = устанавили силениум (в консоли)
 from selenium import webdriver # импорт веб драйвера
 from selenium.webdriver.common.by import By # импорт поиска
