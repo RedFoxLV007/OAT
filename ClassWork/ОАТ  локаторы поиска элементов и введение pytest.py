@@ -6,6 +6,7 @@ from selenium.common import NoSuchElementException # если не выводи�
 from selenium.webdriver.support.wait import WebDriverWait # драйвер ожидания
 from selenium.webdriver.support import expected_conditions as EC
 
+
 # driver = webdriver.Chrome()
 # driver.get("https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0") #страница сайта
 # try:
