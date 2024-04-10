@@ -50,7 +50,7 @@ def driver():
 # # [(),(),()]
 @pytest.mark.parametrize("input_value, expected", get_test_params())
 def test_add_item_to_cart(driver, input_value, expected):
-    input_elem = driver.find_element(By.ID, "exampleCount")
+    input_elem = driver.find_element(By, "exampleCount")
     input_elem.send_keys(input_value)# input_value взяли из @pytest.mark.parametrize
     button = driver.find_element(By.XPATH, "/html/body/div/div/div/div/div[2]/form/button")
     button.click()
